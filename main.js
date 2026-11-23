@@ -8,7 +8,7 @@ const WHATSAPP_NUMBER = "";
 /* Textos das mensagens. Para mudar o que sai pronto no WhatsApp, edite aqui. */
 const MESSAGES = {
   consultoria: "Olá, Gabi! Tenho um restaurante (ou cafeteria) e gostaria de conversar sobre uma consultoria de cozinha: receitas de panificação e confeitaria e orientação técnica para a minha equipe.",
-  treinamento: "Olá, Gabi! Gostaria de saber como funciona o treinamento in-company de panificação e confeitaria para a minha brigada.",
+  treinamento: "Olá, Gabi! Gostaria de saber como funciona o treinamento de panificação e confeitaria para a equipe de cozinha do meu restaurante.",
   aula: "Olá, Gabi! Quero saber mais sobre as aulas particulares de panificação e confeitaria.",
   geral: "Olá, Gabi! Vi o seu site e gostaria de conversar.",
 };

@@ -13,7 +13,7 @@ HTML, CSS e JavaScript puros. Sem framework, sem build, sem dependências. Para 
 | Item | Situação |
 | --- | --- |
 | Quem | Gabriela Salomão David (@umgoledegabi): confeiteira, padeira, docente do SENAC, campeã do Que Seja Doce 2022 (GNT) |
-| O que vende | Três serviços, sem e-commerce de doces: **consultoria de cozinha** para restaurantes e cafeterias (frente principal), **treinamento de brigadas** in-company e **aulas particulares** |
+| O que vende | Três serviços, sem e-commerce de doces: **consultoria de cozinha** para restaurantes e cafeterias (frente principal), **treinamento para equipes de cozinha** e **aulas particulares** |
 | Foco do texto | Ensino, receita e técnica. **Sem** cálculo de custo, CMV, margem ou lucro (decisão do Richard: "não faz parte da personalidade dela") |
 | Estado | Design aprovado pelo Richard em 19/11/2026. Falta: número de WhatsApp, aprovação dos textos pela Gabi, domínio e publicação |
 | Onde está | Este repositório, branch `main` |
@@ -36,7 +36,14 @@ README.md         este arquivo
 2. **Mudança de rumo (19/11).** O Richard pediu para: tirar o cálculo de lucro; focar em docência e cozinha (a Gabi é professora do SENAC, e esse era o sonho dela); manter a consultoria de cozinha em primeiro lugar, sem diferença de prioridade para as aulas particulares; usar as fotos e vídeos de `GabiSite`; e tratar gatos e Bloody Mary só como referências visuais, nunca no texto.
 3. **Versão 3 (commit `eec5be1`).** Primeiro site de verdade neste repositório, com as fotos reais, ainda no visual creme e âmbar. Um ajuste de margens seguras do celular veio no commit `e14f4ce`.
 4. **Reprovação parcial ("gostei, mas não amei").** O Richard achou o visual genérico, "parece outros 500 sites", sem personalidade. Pontos citados: visual genérico, tipografia e cores. Pediu mais personalidade e disse que a foto da Gabi com as rosquinhas diante dos olhos é muito melhor que a do palmier-borboleta. Liberou trocar paleta e tipografia e escolheu a direção **moderna e lúdica**.
-5. **Versão 4 (atual).** Redesenho aprovado como protótipo ("ficou maravilhoso") e convertido em site real. Esta é a versão descrita abaixo.
+5. **Versão 4.** Redesenho aprovado como protótipo ("ficou maravilhoso") e convertido em site real.
+6. **Versão 5 (atual, 23/11).** Ajustes pedidos pelo Richard:
+   - **Textos humanizados:** todo o texto foi reescrito em primeira pessoa, em tom de conversa, sem frases de efeito. H1 agora é "Pão e doce que a sua equipe sabe fazer."; "Rigor de escola. Alma de bancada." virou "Prazer, sou a Gabi."; "Do primeiro olhar ao ponto certo" virou "A gente trabalha junto, passo a passo.".
+   - **Foto do card de consultoria:** `doces-rack` (panetones pendurados de cabeça para baixo) foi trocada por `gabi-palmiers`.
+   - **"Treinamento de brigadas in-company"** virou **"Treinamento para equipes de cozinha"** (brigada lembra emergência e incêndio). A palavra também saiu da meta description, do og:description e da mensagem de WhatsApp.
+   - **Gato do contato redesenhado:** agora de frente, com orelhas, olhos no rosto, nariz, bigodes e patas na borda do cartão.
+   - **Novo bloco "Formação e experiência"** dentro de Sobre (4 cartões). O texto de Sobre agora está em primeira pessoa e os chips antigos foram removidos.
+   - Mantidos como estavam: "O que sai da bancada" e "Vamos falar sobre a sua cozinha?".
 
 ## 4. Design
 
@@ -67,11 +74,11 @@ README.md         este arquivo
 | # | Seção | Âncora | Observação |
 | --- | --- | --- | --- |
 | 1 | Navegação | `#topo` | Marca e links. **No celular os 4 links somem** e sobra a marca e o botão "Agendar uma conversa" |
-| 2 | Hero (rosa) | `#topo` | H1 "Pão e doce *ensinados* com técnica e gosto.", foto das rosquinhas em arco, selo "Campeã Que Seja Doce 2022", macaron dos gatinhos |
+| 2 | Hero (rosa) | `#topo` | H1 "Pão e doce que a sua equipe *sabe fazer*.", foto das rosquinhas em arco, selo "Campeã Que Seja Doce 2022", macaron dos gatinhos |
 | 3 | Faixa | | Palavras-chave correndo, decorativa (escondida de leitores de tela) |
 | 4 | Três frentes | `#consultoria`, `#treinamento`, `#aulas` | Consultoria em cartão largo (vermelho); treinamento (amarelo) e aulas (rosa) lado a lado, mesmo peso |
 | 5 | Repertório (escuro) | | 8 fotos inclinadas, "O que sai da bancada" |
-| 6 | Sobre (amarelo) | `#sobre` | "Rigor de escola. Alma de bancada.", foto dela com croissantes nos olhos, link do Instagram |
+| 6 | Sobre (amarelo) | `#sobre` | "Prazer, sou a Gabi.", foto dela com croissantes nos olhos, texto em primeira pessoa, link do Instagram e bloco "Formação e experiência" (`.cv`, 4 cartões: docência no SENAC, formação, experiência de cozinha, especialidades) |
 | 7 | Método | | 4 passos numerados (é uma sequência de verdade): conversa, receitas, ensino, acompanhamento |
 | 8 | Contato (vermelho) | `#contato` | Seletor "Eu quero:" monta a mensagem de WhatsApp. Gato espiando sobre o cartão |
 | 9 | Rodapé | | Marca, links, Instagram, direitos |
@@ -96,9 +103,9 @@ README.md         este arquivo
 
 ## 7. Fotos
 
-**Em uso (13):** `gabi-rosquinhas` (hero), `macaron-gatinhos`, `doces-rack`, `gabi-croissant`, `gabi-palmier-borboleta`, `croissant-listrado`, `torta-limao`, `pavlova`, `bolos-pote`, `cannoli`, `pao-barca`, `pain-au-chocolat`, `gabi-croissants-olhos` (Sobre).
+**Em uso (13):** `gabi-rosquinhas` (hero), `macaron-gatinhos`, `gabi-palmiers` (consultoria), `gabi-croissant`, `gabi-palmier-borboleta`, `croissant-listrado`, `torta-limao`, `pavlova`, `bolos-pote`, `cannoli`, `pao-barca`, `pain-au-chocolat`, `gabi-croissants-olhos` (Sobre).
 
-**Livres em `assets/img/` (22):** `bolo-flor`, `croissant-miolo`, `croissants-mao`, `folhado-listrado`, `gabi-amora`, `gabi-palmiers`, `macaron-chocolate`, `massa-esticada`, `pains-fermentando`, `palmier-chocolate`, `pao-brioche`, `pao-cachorro-quente`, `rocambole`, `rosquinha`, `tiramisu`, `torta-caramelo`, `torta-folhas`, `torta-frutas`, `torta-limao-merengue`, `torta-merengue-avela`, `torta-nozes`, `tranca-chocolate`. Prontas para uma galeria maior ou troca de fotos.
+**Livres em `assets/img/` (22):** `doces-rack` (panetones de cabeça para baixo, tirada por pedido do Richard), `bolo-flor`, `croissant-miolo`, `croissants-mao`, `folhado-listrado`, `gabi-amora`, `macaron-chocolate`, `massa-esticada`, `pains-fermentando`, `palmier-chocolate`, `pao-brioche`, `pao-cachorro-quente`, `rocambole`, `rosquinha`, `tiramisu`, `torta-caramelo`, `torta-folhas`, `torta-frutas`, `torta-limao-merengue`, `torta-merengue-avela`, `torta-nozes`, `tranca-chocolate`. Prontas para uma galeria maior ou troca de fotos.
 
 **Descartados de `GabiSite`:** 3 dos 5 vídeos (`WA0096`, `WA0098`, `WA0099`) são memes de internet com marca d'água de terceiros e imagens que não combinam com o tom profissional. Não foram usados nem convertidos.
 
@@ -106,10 +113,12 @@ README.md         este arquivo
 
 ## 8. Texto: quem escreveu e o que falta aprovar
 
-Os textos foram escritos pelo Claude a partir do que o Richard contou e do briefing, **não são da Gabi**. Fatos usados: nome completo, profissão, docência no SENAC, título no Que Seja Doce 2022 (GNT), Instagram. Nenhum número, depoimento, cliente, preço ou prazo foi inventado.
+Os textos foram escritos pelo Claude a partir do que o Richard contou e do briefing, **não são da Gabi**. Fatos usados: nome completo, profissão, docência no SENAC (cursos técnicos de Panificação e de Confeitaria; cursos livres de técnicas de panificação, técnicas de confeitaria, doces finos, bolos e tortas), graduação em Gastronomia (**o nome da faculdade não é citado, por pedido do Richard**), Le Cordon Bleu do Peru, experiência em resort e em pizzaria napolitana, panificação, confeitaria e macaron, título no Que Seja Doce 2022 (GNT), Instagram. Nenhum número, depoimento, cliente, preço ou prazo foi inventado.
 
 Precisam da aprovação dela antes de ir ao ar:
-- O terceiro parágrafo de "Sobre" ("Ensinar era o caminho que ela queria, e hoje é o centro do trabalho..."), que se baseia no que ela disse ao Richard, e a pergunta de fundo no segundo parágrafo.
+- O segundo parágrafo de "Sobre" ("Ser professora de gastronomia era um sonho meu..."), que se baseia no que ela contou ao Richard, e a frase sobre explicar o porquê de cada etapa.
+- O bloco "Formação e experiência": conferir se os cursos livres estão completos (o Richard disse "etc.") e se "escola muito renomada" para a Le Cordon Bleu agrada a ela. Também falta saber o ano de formação e o período de resort e pizzaria, se ela quiser mostrar.
+- Toda a voz em primeira pessoa: foi escrita por nós, e ela precisa se reconhecer.
 - Os entregáveis de cada serviço (listas com marcadores): são razoáveis, mas descrevem o que ela faz e **não foram validados**.
 - O método em 4 passos.
 - As mensagens prontas do WhatsApp.
