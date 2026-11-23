@@ -2,8 +2,8 @@
    Faz uma coisa só: o seletor "Eu quero:" do contato, que monta a mensagem de WhatsApp. */
 
 /* Número da Gabi com DDI e DDD, só dígitos. Exemplo: "5516999999999".
-   Enquanto estiver vazio, o link abre o WhatsApp pedindo para escolher o contato. */
-const WHATSAPP_NUMBER = "";
+   Número da Gabi (16) 99123-1992, informado pelo Richard em 23/11. */
+const WHATSAPP_NUMBER = "5516991231992";
 
 /* Textos das mensagens. Para mudar o que sai pronto no WhatsApp, edite aqui. */
 const MESSAGES = {
